@@ -4,28 +4,28 @@
       "wins": 34,
       "losses": 11,
       "draws": 0,
-      "weightClass": "Middleweight"
+      "weightClass": "Meso médio"
     },
     {
       "name": "Jon Jones",
       "wins": 26,
       "losses": 1,
       "draws": 0,
-      "weightClass": "Light Heavyweight"
+      "weightClass": "Peso meio pesado"
     },
     {
       "name": "Khabib Nurmagomedov",
       "wins": 29,
       "losses": 0,
       "draws": 0,
-      "weightClass": "Lightweight"
+      "weightClass": "Peso leve"
     },
     {
       "name": "Amanda Nunes",
       "wins": 21,
       "losses": 4,
       "draws": 0,
-      "weightClass": "Bantamweight"
+      "weightClass": "Peso galo"
     }
   ]
   

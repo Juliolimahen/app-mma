@@ -1,4 +1,4 @@
-import Fighter from '../types/Fighter';
+import Fighter  from '../types/Fighter';
 import mockFightersData from '../mockFightersData.json';
 
 // Função que retorna dados fictícios de lutadores
@@ -7,5 +7,3 @@ export const getFighters = async (): Promise<Fighter[]> => {
   await new Promise((resolve) => setTimeout(resolve, 500));
   return mockFightersData;
 };
-
-export default Fighter;

@@ -1,26 +1,25 @@
 import React, { useEffect, useState } from 'react';
 import FighterList from './FighterList';
-import Fighter from '../api/fighters';// A API será criada posteriormente
+import { getFighters } from '../api/fighters';
+import Fighter from '../types/Fighter';
 
 const ExploreFighters: React.FC = () => {
-    const [fighters, setFighters] = useState<Fighter[]>([]);
+  const [fighters, setFighters] = useState([] as Fighter[]); // Infere o tipo a partir do valor atribuído
 
-    useEffect(() => {
-        const mockApiCall = async () => {
-            const response = await fetch('/api/fighters');
-            const data = await response.json();
-            setFighters(data);
-        };
+  useEffect(() => {
+    const fetchFighters = async () => {
+      const data = await getFighters();
+      setFighters(data);
+    };
+    fetchFighters();
+  }, []);
 
-        mockApiCall();
-    }, []);
-
-    return (
-        <div>
-            <h1>Explore Fighters</h1>
-            <FighterList fighters={fighters} />
-        </div>
-    );
+  return (
+    <div>
+      <h1>Explorar lutadores</h1>
+      <FighterList fighters={fighters} />
+    </div>
+  );
 };
 
 export default ExploreFighters;
