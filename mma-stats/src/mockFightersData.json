@@ -1,0 +1,31 @@
+[
+    {
+      "name": "Anderson Silva",
+      "wins": 34,
+      "losses": 11,
+      "draws": 0,
+      "weightClass": "Middleweight"
+    },
+    {
+      "name": "Jon Jones",
+      "wins": 26,
+      "losses": 1,
+      "draws": 0,
+      "weightClass": "Light Heavyweight"
+    },
+    {
+      "name": "Khabib Nurmagomedov",
+      "wins": 29,
+      "losses": 0,
+      "draws": 0,
+      "weightClass": "Lightweight"
+    },
+    {
+      "name": "Amanda Nunes",
+      "wins": 21,
+      "losses": 4,
+      "draws": 0,
+      "weightClass": "Bantamweight"
+    }
+  ]
+  

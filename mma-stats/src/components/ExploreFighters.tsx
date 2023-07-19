@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import FighterList from './FighterList';
-import { Fighter } from '../api/fighters'; // A API será criada posteriormente
+import Fighter from '../api/fighters';// A API será criada posteriormente
 
 const ExploreFighters: React.FC = () => {
     const [fighters, setFighters] = useState<Fighter[]>([]);

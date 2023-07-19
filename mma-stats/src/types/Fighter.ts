@@ -4,6 +4,7 @@ interface Fighter {
     losses: number;
     draws: number;
     weightClass: string;
-}
-
-export default Fighter;
+  }
+  
+  export default Fighter; // Exporte a interface Fighter
+  
