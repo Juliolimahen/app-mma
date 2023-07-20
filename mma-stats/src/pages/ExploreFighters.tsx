@@ -1,10 +1,11 @@
+// src/pages/ExploreFighters.tsx
 import React, { useEffect, useState } from 'react';
-import FighterList from './FighterList';
+import FighterList from '../components/FighterList';
 import { getFighters } from '../api/fighters';
-import Fighter from '../types/Fighter';
+import { Fighter } from '../types/Fighter';
 
 const ExploreFighters: React.FC = () => {
-  const [fighters, setFighters] = useState([] as Fighter[]); // Infere o tipo a partir do valor atribuído
+  const [fighters, setFighters] = useState<Fighter[]>([]);
 
   useEffect(() => {
     const fetchFighters = async () => {

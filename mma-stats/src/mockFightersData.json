@@ -1,31 +1,38 @@
 [
     {
-      "name": "Anderson Silva",
-      "wins": 34,
-      "losses": 11,
-      "draws": 0,
-      "weightClass": "Meso médio"
+        "name": "Anderson Silva",
+        "wins": 34,
+        "losses": 11,
+        "draws": 0,
+        "weightClass": "Middleweight",
+        "gender": "male",
+        "imageURL": "https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/SILVA_ANDERSON.png"
     },
     {
-      "name": "Jon Jones",
-      "wins": 26,
-      "losses": 1,
-      "draws": 0,
-      "weightClass": "Peso meio pesado"
+        "name": "Jon Jones",
+        "wins": 26,
+        "losses": 1,
+        "draws": 0,
+        "weightClass": "Light Heavyweight",
+        "gender": "male",
+        "imageURL": "https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/JONES_JON.png"
     },
     {
-      "name": "Khabib Nurmagomedov",
-      "wins": 29,
-      "losses": 0,
-      "draws": 0,
-      "weightClass": "Peso leve"
+        "name": "Khabib Nurmagomedov",
+        "wins": 29,
+        "losses": 0,
+        "draws": 0,
+        "weightClass": "Lightweight",
+        "gender": "male",
+        "imageURL": "https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/NURMAGOMEDOV_KHABIB.png"
     },
     {
-      "name": "Amanda Nunes",
-      "wins": 21,
-      "losses": 4,
-      "draws": 0,
-      "weightClass": "Peso galo"
+        "name": "Amanda Nunes",
+        "wins": 21,
+        "losses": 4,
+        "draws": 0,
+        "weightClass": "Bantamweight",
+        "gender": "female",
+        "imageURL": "https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/NUNES_AMANDA.png"
     }
-  ]
-  
+]

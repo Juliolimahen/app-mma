@@ -1,5 +1,7 @@
 import './App.css';
-import ExploreFighters from './components/ExploreFighters';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import ExploreFighters from './pages/ExploreFighters';
 import styled, { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
@@ -21,7 +23,7 @@ const GlobalStyle = createGlobalStyle`
 const AppWrapper = styled.div`
   background-color: #fff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 0px;
   border-radius: 5px;
 `;
 
@@ -30,7 +32,9 @@ function App() {
     <>
       <GlobalStyle />
       <AppWrapper>
+        <Navbar></Navbar>
         <ExploreFighters />
+        <Footer></Footer>
       </AppWrapper>
     </>
   );

@@ -1,13 +1,7 @@
 import React from 'react';
 import FighterCard from './FighterCard';
-
-interface Fighter {
-  name: string;
-  wins: number;
-  losses: number;
-  draws: number;
-  weightClass: string;
-}
+import { Fighter } from '../types/Fighter';
+import { FighterListContainer } from './styles'; // Importe o estilo adicionado
 
 interface FighterListProps {
   fighters: Fighter[];
@@ -15,12 +9,13 @@ interface FighterListProps {
 
 const FighterList: React.FC<FighterListProps> = ({ fighters }) => {
   return (
-    <div className="fighter-list">
+    <FighterListContainer>
       {fighters.map((fighter) => (
         <FighterCard key={fighter.name} fighter={fighter} />
       ))}
-    </div>
+    </FighterListContainer>
   );
 };
+
 
 export default FighterList;
