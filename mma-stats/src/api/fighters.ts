@@ -1,3 +1,4 @@
+// src/api/fighters.ts
 import { Fighter } from '../types/Fighter';
 import mockFightersData from '../mockFightersData.json';
 
@@ -16,5 +17,13 @@ export const getFighters = async (): Promise<Fighter[]> => {
     isValidGender(fighter.gender)
   );
 
-  return filteredFighters as Fighter[];
+  // Ordena os lutadores pelo melhor aproveitamento (vitórias + empates / 2) / (vitórias + derrotas + empates) em ordem decrescente
+  const sortedFighters = filteredFighters.sort((a, b) => {
+    const winRateA = (a.wins + a.draws / 2) / (a.wins + a.losses + a.draws);
+    const winRateB = (b.wins + b.draws / 2) / (b.wins + b.losses + b.draws);
+
+    return winRateB - winRateA;
+  });
+
+  return sortedFighters as Fighter[];
 };

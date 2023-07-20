@@ -4,7 +4,7 @@
         "wins": 34,
         "losses": 11,
         "draws": 0,
-        "weightClass": "Middleweight",
+        "weightClass": "Peso médio",
         "gender": "male",
         "imageURL": "https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/SILVA_ANDERSON.png"
     },
@@ -13,7 +13,7 @@
         "wins": 26,
         "losses": 1,
         "draws": 0,
-        "weightClass": "Light Heavyweight",
+        "weightClass": "Peso meio pesado",
         "gender": "male",
         "imageURL": "https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/JONES_JON.png"
     },
@@ -22,7 +22,7 @@
         "wins": 29,
         "losses": 0,
         "draws": 0,
-        "weightClass": "Lightweight",
+        "weightClass": "Peso leve",
         "gender": "male",
         "imageURL": "https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/NURMAGOMEDOV_KHABIB.png"
     },
@@ -31,8 +31,35 @@
         "wins": 21,
         "losses": 4,
         "draws": 0,
-        "weightClass": "Bantamweight",
+        "weightClass": "Peso mosca",
         "gender": "female",
         "imageURL": "https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/NUNES_AMANDA.png"
+    },
+    {
+        "name": "Israel Adesanya",
+        "wins": 24,
+        "losses": 2,
+        "draws": 0,
+        "weightClass": "Peso médio",
+        "gender": "male",
+        "imageURL": "https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/ADESANYA_ISRAEL.png"
+    },
+    {
+        "name": "ISLAM MAKHACHEV",
+        "wins": 24,
+        "losses": 1,
+        "draws": 0,
+        "weightClass": "Peso leve",
+        "gender": "male",
+        "imageURL": "https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/MAKHACHEV_ISLAM.png"
+    },
+    {
+        "name": "Charles Oliveira",
+        "wins": 34,
+        "losses": 9,
+        "draws": 0,
+        "weightClass": "Peso leve",
+        "gender": "male",
+        "imageURL": "https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/OLIVEIRA_CHARLES.png"
     }
 ]

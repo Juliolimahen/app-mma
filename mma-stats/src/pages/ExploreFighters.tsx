@@ -3,9 +3,21 @@ import React, { useEffect, useState } from 'react';
 import FighterList from '../components/FighterList';
 import { getFighters } from '../api/fighters';
 import { Fighter } from '../types/Fighter';
+import styled from 'styled-components';
+
+const Container = styled.div`
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+`;
+
+const Title = styled.h1`
+  text-align: center;
+  margin-bottom: 30px;
+`;
 
 const ExploreFighters: React.FC = () => {
-  const [fighters, setFighters] = useState<Fighter[]>([]);
+  const [fighters, setFighters] = useState([] as Fighter[]);
 
   useEffect(() => {
     const fetchFighters = async () => {
@@ -16,10 +28,10 @@ const ExploreFighters: React.FC = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Explorar lutadores</h1>
+    <Container>
+      <Title>Explorar Lutadores</Title>
       <FighterList fighters={fighters} />
-    </div>
+    </Container>
   );
 };
 

@@ -32,9 +32,9 @@ function App() {
     <>
       <GlobalStyle />
       <AppWrapper>
-        <Navbar></Navbar>
+        <Navbar />
         <ExploreFighters />
-        <Footer></Footer>
+        <Footer />
       </AppWrapper>
     </>
   );
