@@ -6,4 +6,11 @@ export interface Fighter {
   weightClass: string;
   gender: 'male' | 'female' | 'other';
   imageURL: string;
+  age: number;
+  height: string;
+  weight: string;
+  team: string;
+  winsKO: number;
+  winsSubmission: number;
+  winsDecision: number;
 }

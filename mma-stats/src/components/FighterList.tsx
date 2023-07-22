@@ -1,7 +1,7 @@
 import React from 'react';
 import FighterCard from './FighterCard';
 import { Fighter } from '../types/Fighter';
-import { FighterListContainer } from './styles'; // Importe o estilo adicionado
+import { FighterListContainer } from './styles';
 
 interface FighterListProps {
     fighters: Fighter[];

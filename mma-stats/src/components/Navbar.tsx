@@ -1,10 +1,10 @@
 import React from 'react';
-import { NavbarContainer } from './styles';
+import { NavbarContainer, NavbarContainerText } from './styles';
 
 const Navbar: React.FC = () => {
     return (
         <NavbarContainer>
-            <h2>MMA Stats</h2>
+            <NavbarContainerText>MMA Stats</NavbarContainerText>
         </NavbarContainer>
     );
 };
