@@ -11,7 +11,7 @@ interface ModalContentProps {
 const ModalContent = styled.div<ModalContentProps>`
   padding: 16px;
   text-align: center;
-  color: white; /* Definir a cor do texto como branco */
+  // color: white; /* Definir a cor do texto como branco */
 `;
 
 interface FighterDetailsModalProps {
@@ -30,7 +30,7 @@ const customStyles: Modal.Styles = {
     fontSize: '14px',
     display: 'flex',
     justifyContent: 'center',
-    backgroundColor: 'transparent',
+    // backgroundColor: 'transparent',
   },
   overlay: {
     backgroundColor: 'rgba(0, 0, 0, 0.7)',
