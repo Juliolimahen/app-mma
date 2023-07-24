@@ -1,6 +1,6 @@
 import './App.css';
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
+import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
 import ExploreFighters from './pages/ExploreFighters';
 import styled, { createGlobalStyle } from 'styled-components';
 

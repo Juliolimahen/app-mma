@@ -1,32 +1,5 @@
 import styled from 'styled-components';
 
-export const NavbarContainer = styled.nav`
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  width: 100%;
-`;
-
-export const NavbarContainerText = styled.h2`
-margin-left: 17%;
-`
-
-export const FooterContainer = styled.footer`
-  background-color: #333;
-  text-align: center;
-  color: #fff;
-  padding: 10px;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-`;
-
-export const FighterListContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-`;
-
 export const FighterCardContainer = styled.div`
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -66,15 +39,3 @@ export const FighterCardContainer = styled.div`
   }
 }`;
 
-export const PlusButtonContainer = styled.div`
-  cursor: pointer;
-  display: flex;
-  font-size: 16px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-
-  svg {
-    font-size: 20px;
-    margin-right: 5px;
-  }
-`;

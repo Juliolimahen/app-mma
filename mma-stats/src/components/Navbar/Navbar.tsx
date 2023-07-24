@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavbarContainer, NavbarContainerText } from './styles';
+import { NavbarContainer, NavbarContainerText } from './style';
 
 const Navbar: React.FC = () => {
     return (

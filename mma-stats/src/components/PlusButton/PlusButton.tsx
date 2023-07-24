@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
-import { PlusButtonContainer } from './styles';
+import { PlusButtonContainer } from './style';
 
 interface PlusButtonProps {
   onShowModal: () => void;

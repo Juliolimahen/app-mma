@@ -1,10 +1,10 @@
 // FighterCard.tsx
 import React, { useState, useEffect } from 'react';
-import { Fighter } from '../types/Fighter';
-import { FighterCardContainer } from './styles';
+import { Fighter } from '../../types/Fighter';
+import { FighterCardContainer } from './style';
 import { FaMale, FaFemale, FaUser } from 'react-icons/fa';
-import PlusButton from './PlusButton';
-import FighterDetailsModal from './FighterDetailsModal';
+import PlusButton from '../PlusButton/PlusButton';
+import FighterDetailsModal from '../FighterDetailsModal/FighterDetailsModal';
 
 interface FighterCardProps {
   fighter: Fighter;
