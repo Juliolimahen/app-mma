@@ -14,51 +14,50 @@ Bem-vindo ao MMA Stats! Esta é uma aplicação que exibe informações sobre lu
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; text-align: left;">
   <div>
+    <p>1. Página inicial - Explorar Lutadores:</p>
     <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_1.png" alt="Página inicial - Explorar Lutadores" >
-    <p>1. Página inicial - Explorar Lutadores</p>
   </div>
   <div>
+    <p>2. Página inicial - Explorar Lutadores:</p>
     <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_2.png" alt="Página inicial - Explorar Lutadores" >
-    <p>2. Página inicial - Explorar Lutadores</p>
   </div>
   <div>
+    <p>3. Detalhes do Lutador:</p>
     <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_9.png" alt="Detalhes do Lutador" >
-    <p>3. Detalhes do Lutador</p>
   </div>
   <div>
+    <p>4. Filtro por Gênero feminino:</p>
     <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_5.png" alt="Filtro por Gênero feminino" >
-    <p>4. Filtro por Gênero feminino</p>
   </div>
   <div>
-    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_6.png" alt="Filtro por Gênero masculino">
-    <p>5. Filtro por Gênero masculino</p>
+    <p>5. Filtro por Gênero masculino:</p>
+    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_6.png" alt="Filtro por Gênero masculino" >
   </div>
   <div>
+    <p>6. Busca por nome:</p>
     <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_3.png" alt="Busca por nome 1" >
-    <p>6. Busca por nome 1</p>
   </div>
   <div>
+    <p>7. Busca por nome:</p>
     <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_4.png" alt="Busca por nome 2" >
-    <p>7. Busca por nome 2</p>
   </div>
   <div>
-    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_8.png" alt="Busca por nome responsivo 2" width="300">
-    <p>8. Explorar Lutadores responsivo</p>
+    <p>8. Explorar Lutadores responsivo:</p>
+    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_8.png" alt="Busca por nome responsivo 2" >
   </div>
   <div>
+    <p>9. Busca por nome responsivo:</p>
     <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_7.png" alt="Busca por nome responsivo 1" width="300">
-    <p>9. Busca por nome responsivo</p>
   </div>
   <div>
+    <p>10. Detalhes lutadores responsivo:</p>
     <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_11.png" alt="Detalhes lutadores responsivo 1" width="300">
-    <p>10. Detalhes lutadores responsivo</p>
   </div>
   <div>
-    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_12.png" alt="Detalhes lutadores sem imagem" width="300">
-    <p>11. Detalhes lutadores sem imagem</p>
+    <p>11. Detalhes lutadores sem imagem:</p>
+    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_12.png" alt="Detalhes lutadores responsivo 2" width="300">
   </div>
 </div>
-
 
 ## Como Usar
 
