@@ -59,8 +59,6 @@ Bem-vindo ao MMA Stats! Esta é uma aplicação que exibe informações sobre lu
   </div>
 </div>
 
-
-
 ## Como Usar
 
 1. Clone o repositório para sua máquina local.
