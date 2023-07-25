@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import FighterList from '../components/FighterList/FighterList';
+import FighterList from '../components/FighterList';
 import { getFighters } from '../api/fighters';
 import { Container, Title } from './styles';
 import { Fighter } from '../types/Fighter';
@@ -16,10 +16,10 @@ const ExploreFighters: React.FC = () => {
   }, []);
 
   return (
-      <Container>
-        <Title>Ranking de lutadores por aproveitamento</Title>
-        <FighterList fighters={fighters} />
-      </Container>
+    <Container>
+      <Title>Ranking de lutadores por aproveitamento</Title>
+      <FighterList fighters={fighters} />
+    </Container>
   );
 };
 

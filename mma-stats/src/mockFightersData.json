@@ -17,7 +17,7 @@
     },
     {
         "name": "Jon Jones",
-        "wins": 26,
+        "wins": 27,
         "losses": 1,
         "draws": 0,
         "weightClass": "Pesos-meio-pesados",
@@ -27,7 +27,7 @@
         "height": "6'4\"",
         "weight": "205 lbs",
         "team": "JacksonWink MMA",
-        "winsKO": 14,
+        "winsKO": 15,
         "winsSubmission": 8,
         "winsDecision": 4
     },
@@ -161,7 +161,7 @@
     },
     {
         "name": "Amanda Nunes",
-        "wins": 22,
+        "wins": 23,
         "losses": 5,
         "draws": 0,
         "weightClass": "Pesos galos e penas",
@@ -172,7 +172,7 @@
         "weight": "135 lbs",
         "team": "American Top Team",
         "winsKO": 13,
-        "winsSubmission": 9,
+        "winsSubmission": 10,
         "winsDecision": 0
     },
     {
@@ -193,7 +193,7 @@
     },
     {
         "name": "Cris Cyborg",
-        "wins": 25,
+        "wins": 26,
         "losses": 2,
         "draws": 0,
         "weightClass": "Pesos penas",
@@ -222,5 +222,36 @@
         "winsKO": 4,
         "winsSubmission": 12,
         "winsDecision": 0
-    }
+    },{
+        "name": "Charles Oliveira",
+        "wins": 34,
+        "losses": 8,
+        "draws": 0,
+        "weightClass": "Peso leve",
+        "gender": "male",
+        "imageURL": "https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/OLIVEIRA_CHARLES.png",
+        "age": 32,
+        "height": "5'11\"",
+        "weight": "155 lbs",
+        "team": "American Top Team",
+        "winsKO": 18,
+        "winsSubmission": 14,
+        "winsDecision": 1
+      },
+      {
+        "name": "Israel Adesanya",
+        "wins": 24,
+        "losses": 2,
+        "draws": 0,
+        "weightClass": "Peso médio",
+        "gender": "male",
+        "imageURL": "https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/ADESANYA_ISRAEL.png",
+        "age": 32,
+        "height": "6'4\"",
+        "weight": "185 lbs",
+        "team": "City Kickboxing",
+        "winsKO": 16,
+        "winsSubmission": 9,
+        "winsDecision": 2
+      }
 ]

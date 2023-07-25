@@ -1,7 +1,7 @@
 import './App.css';
-import Footer from './components/Footer/Footer';
-import Navbar from './components/Navbar/Navbar';
-import ExploreFighters from './pages/ExploreFighters';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import ExploreFighters from './pages';
 import styled, { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`

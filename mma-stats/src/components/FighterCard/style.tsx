@@ -6,6 +6,8 @@ export const FighterCardContainer = styled.div`
   padding: 20px;
   margin: 10px;
   width: 250px;
+  min-width: 250px; /* Tamanho mínimo de largura */
+  min-height: 350px; /* Tamanho mínimo de altura */
   text-align: center;
 
   h2 {
