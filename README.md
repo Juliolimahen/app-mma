@@ -14,31 +14,31 @@ Bem-vindo ao MMA Stats! Esta é uma aplicação que exibe informações sobre lu
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; text-align: left;">
   <div>
-    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_1.png" alt="Página inicial - Explorar Lutadores" width="600">
+    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_1.png" alt="Página inicial - Explorar Lutadores" >
     <p>1. Página inicial - Explorar Lutadores</p>
   </div>
   <div>
-    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_2.png" alt="Página inicial - Explorar Lutadores" width="600">
+    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_2.png" alt="Página inicial - Explorar Lutadores" >
     <p>2. Página inicial - Explorar Lutadores</p>
   </div>
   <div>
-    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_9.png" alt="Detalhes do Lutador" width="600">
+    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_9.png" alt="Detalhes do Lutador" >
     <p>3. Detalhes do Lutador</p>
   </div>
   <div>
-    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_5.png" alt="Filtro por Gênero feminino" width="600">
+    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_5.png" alt="Filtro por Gênero feminino" >
     <p>4. Filtro por Gênero feminino</p>
   </div>
   <div>
-    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_6.png" alt="Filtro por Gênero masculino" width="600">
+    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_6.png" alt="Filtro por Gênero masculino">
     <p>5. Filtro por Gênero masculino</p>
   </div>
   <div>
-    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_3.png" alt="Busca por nome 1" width="600">
+    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_3.png" alt="Busca por nome 1" >
     <p>6. Busca por nome 1</p>
   </div>
   <div>
-    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_4.png" alt="Busca por nome 2" width="600">
+    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_4.png" alt="Busca por nome 2" >
     <p>7. Busca por nome 2</p>
   </div>
   <div>
