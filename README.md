@@ -61,7 +61,7 @@ Bem-vindo ao MMA Stats! Esta é uma aplicação que exibe informações sobre lu
 
 ## Como Usar
 
-1. Clone o repositório para sua máquina local.
+1. Clone o repositório para sua máquina local usando `https://github.com/Juliolimahen/app-mma.git`.
 2. Instale as dependências usando `npm install`.
 3. Inicie o servidor de desenvolvimento usando `npm start`.
 4. Abra o aplicativo em seu navegador acessando `http://localhost:3000`.
