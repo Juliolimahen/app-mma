@@ -16,10 +16,10 @@ const ExploreFighters: React.FC = () => {
   }, []);
 
   return (
-    <Container>
-      <Title>Ranking de lutadores por aproveitamento</Title>
-      <FighterList fighters={fighters} />
-    </Container>
+      <Container>
+        <Title>Ranking de lutadores por aproveitamento</Title>
+        <FighterList fighters={fighters} />
+      </Container>
   );
 };
 

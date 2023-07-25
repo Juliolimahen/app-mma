@@ -9,4 +9,9 @@ export const NavbarContainer = styled.nav`
 
 export const NavbarContainerText = styled.h2`
 margin-left: 17%;
-`
+`;
+
+export const NavbarLink = styled.a`
+  color: #fff;
+  text-decoration: none;
+`;

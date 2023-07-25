@@ -8,5 +8,5 @@ export const Container = styled.div`
 
 export const Title = styled.h2`
   text-align: center;
-  margin: 3em auto 4em;
+  margin: 1em auto 2em;
 `;

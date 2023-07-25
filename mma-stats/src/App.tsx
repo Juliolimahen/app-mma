@@ -9,22 +9,28 @@ const GlobalStyle = createGlobalStyle`
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que a altura da página seja pelo menos 100% da altura da viewport */
+  }
+
+  #root {
+    flex: 1; /* Faz com que o conteúdo preencha o espaço disponível entre o cabeçalho e o rodapé */
   }
 
   .App {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     background-color: #f7f7f7;
   }
 `;
 
 const AppWrapper = styled.div`
-  background-color: #fff;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 0px;
-  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Garante que o contêiner principal ocupe pelo menos 100% da altura da viewport */
+`;
+
+const ContentWrapper = styled.div`
+  flex: 1; /* Faz com que o conteúdo preencha o espaço disponível entre o cabeçalho e o rodapé */
 `;
 
 function App() {
@@ -33,7 +39,9 @@ function App() {
       <GlobalStyle />
       <AppWrapper>
         <Navbar />
-        <ExploreFighters />
+        <ContentWrapper>
+          <ExploreFighters />
+        </ContentWrapper>
         <Footer />
       </AppWrapper>
     </>
