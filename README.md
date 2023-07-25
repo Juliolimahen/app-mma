@@ -39,11 +39,11 @@ Bem-vindo ao MMA Stats! Esta é uma aplicação que exibe informações sobre lu
   </div>
   <div>
     <p>7. Busca por nome:</p>
-    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_4.png" alt="Busca por nome 2" >
+    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_4.png" alt="Busca por nome 2">
   </div>
   <div>
     <p>8. Explorar Lutadores responsivo:</p>
-    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_8.png" alt="Busca por nome responsivo 2" >
+    <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_8.png" alt="Busca por nome responsivo 2" width="400">
   </div>
   <div>
     <p>9. Busca por nome responsivo:</p>
@@ -58,6 +58,8 @@ Bem-vindo ao MMA Stats! Esta é uma aplicação que exibe informações sobre lu
     <img src="https://raw.githubusercontent.com/Juliolimahen/assets/main/web-app-mma/web_12.png" alt="Detalhes lutadores responsivo 2" width="300">
   </div>
 </div>
+
+
 
 ## Como Usar
 
