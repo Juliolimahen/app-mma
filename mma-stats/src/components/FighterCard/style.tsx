@@ -38,4 +38,3 @@ export const FighterCardContainer = styled.div`
     margin-bottom: 10px;
   }
 }`;
-

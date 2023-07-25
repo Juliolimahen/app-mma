@@ -20,4 +20,4 @@ export const CustomStylesModal: Modal.Styles = {
 export const ModalContent = styled.div`
     padding: 16px;
     text-align: center;
-  `;
+`;
