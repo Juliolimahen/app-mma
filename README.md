@@ -77,4 +77,4 @@ Bem-vindo ao MMA Stats! Esta é uma aplicação que exibe informações sobre lu
 
 Este projeto está sob a licença [MIT](https://opensource.org/licenses/MIT).
 
-Obs. As imagens dos lutadores foram restiradas dos repositório, pois eles são de propriedade do UFC e o não permite o uso comercial das imagens por terceiros. Para replicar de forma fededigna os projeto basta inserir o link das imagens que deseja exibir no card e ajustar a propoção, se necessário.
+Obs. As imagens dos lutadores foram restiradas dos repositório, pois eles são de propriedade do UFC e o não permite o uso comercial das imagens por terceiros. Para replicar de forma fededigna o projeto basta inserir o link das imagens que deseja exibir no card e ajustar a prorpoção, se necessário.
